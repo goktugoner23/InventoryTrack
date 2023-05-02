@@ -4,6 +4,8 @@ export default StyleSheet.create({
     container: {
       flex: 1,
       padding: 20,
+      color: 'black',
+      paddingBottom: 20,
     },
     label: {
       fontSize: 18,
@@ -17,6 +19,7 @@ export default StyleSheet.create({
       borderRadius: 5,
       paddingHorizontal: 10,
       marginBottom: 20,
+      color:'black',
     },
     button: {
       backgroundColor: '#0066cc',
@@ -98,5 +101,5 @@ export default StyleSheet.create({
       fontSize: 16,
       fontWeight: '400',
       color: '#333',
-    },    
+    },
   });

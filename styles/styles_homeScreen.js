@@ -1,24 +1,40 @@
 import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-      padding: 20,
-    },
-    item: {
-      backgroundColor: '#f9c2ff',
-      padding: 20,
-      marginVertical: 8,
-      marginHorizontal: 16,
-    },
-    title: {
-      fontSize: 24,
-    },
-    count: {
-      fontSize: 16,
-      marginTop: 10,
-    },
-  });
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    padding: 20,
+    color: 'black',
+  },
+  tableRow: {
+    flexDirection: 'row',
+    borderBottomWidth: 1,
+    borderColor: '#ccc',
+    paddingVertical: 10,
+  },
+  tableHeaderCell: {
+    flex: 1,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color:'black',
+  },
+  itemCell: {
+    flex: 1,
+    textAlign: 'center',
+  },
+  itemText: {
+    textAlign: 'center',
+  },
+  addButton: {
+    backgroundColor: '#2196F3',
+    padding: 10,
+    borderRadius: 5,
+    alignItems: 'center',
+    marginTop: 20,
+  },
+  addButtonText: {
+    color: '#fff',
+    fontSize: 18,
+  },
+});
